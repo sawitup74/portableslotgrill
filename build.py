@@ -1,6 +1,6 @@
 """portableslotgrill.com build. Run: python3 build.py
-To switch on visit counting, replace GC_CODE_portableslotgrill in GOATCOUNTER below with the real GoatCounter code, then rebuild."""
-GOATCOUNTER = "https://GC_CODE_portableslotgrill.goatcounter.com/count"
+To switch on visit counting, replace portableslotgrill in GOATCOUNTER below with the real GoatCounter code, then rebuild."""
+GOATCOUNTER = "https://portableslotgrill.goatcounter.com/count"
 DOMAIN = "https://portableslotgrill.com"
 UTM_SOURCE = "portableslotgrill"
 SITE_NAME = "Portable Slot Grill"
