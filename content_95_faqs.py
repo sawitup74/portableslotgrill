@@ -1,0 +1,20 @@
+_ADD = {
+"tailgate-grilling-guide":[("Can I set the grill on my tailgate?","No. Set it on the pavement with clearance from the vehicle. Never cook on a tailgate or in a truck bed.")],
+"campsite-grilling-guide":[("Can I cook inside my tent if it's raining?","Never. Charcoal produces carbon monoxide. Cook in the open and keep the fire away from the tent.")],
+"rv-grilling-guide":[("Where should I store a charcoal grill in an RV?","Cold, empty and bagged, in a basement bay or behind a seat, with charcoal in a sealed bin.")],
+"beach-grilling-guide":[("Can I bury hot coals in the sand?","No. Buried coals stay hot for hours. Drown and stir, then pack ash out or use designated bins.")],
+"park-and-picnic-grilling":[("Can I put a charcoal grill on a picnic table?","Not on a wooden table. Set it on concrete, gravel or bare dirt.")],
+"backyard-patio-grilling":[("Can I use a charcoal grill on an apartment balcony?","It depends on your building rules and local fire code; many restrict it. Check before buying or lighting.")],
+"fishing-and-boat-day-shore-cooking":[("Can I grill on my boat?","Not with a charcoal grill. Carry it as cargo and cook on shore where fires are permitted.")],
+"packing-a-grill-in-a-car-trunk":[("How soon can I pack the grill after cooking?","Only when the steel and ash are completely cold.")],
+"carrying-a-grill-on-a-kayak-canoe-or-backpack":[("Is the Slot Grill light enough for backpacking?","It's heavy steel. The Compact (about 14 lb) is reasonable for paddling or a short walk-in, not ultralight backpacking.")],
+"storing-a-portable-grill-at-home":[("Will a carbon steel grill rust in storage?","It can if stored damp or bare. Oil the cooking surfaces and store it dry.")],
+"griddle-plates-on-the-go":[("Do the griddle plates fit both Slot Grills?","Slot Grill sells griddle options for both the Compact and the Full Size, in one- or two-plate configurations.")],
+"controlling-heat-on-a-portable-grill":[("How do I lower the heat on a grill with no vents?","Move food to the cool zone, spread the coals thinner, or let the fire burn down.")],
+"lighting-charcoal-away-from-home":[("Can I use lighter fluid?","You can, but a chimney or natural starters work better. Never add lighter fluid to lit coals, and never use gasoline.")],
+"ash-disposal-and-leave-no-trace":[("How long does charcoal ash stay hot?","Many hours. Treat it as hot until it's cold to the touch.")],
+"setting-up-on-different-surfaces":[("Does the air gap make it safe on a wood deck?","No. The air gap helps minimize radiant heat, but the surface must still be non-combustible.")],
+"cooler-and-food-safety-for-portable-grilling":[("How long can food sit out at a picnic?","No more than 2 hours, or 1 hour above 90°F.")],
+"compact-vs-full-size-slot-grill":[("Which Slot Grill is better for travel?","The Compact is lighter (about 14 lb) and packs about 1 inch thick; the Full Size cooks for bigger groups.")],
+}
+PAGES = [p if p[0] not in _ADD else p[:6]+(p[6]+_ADD[p[0]],) for p in PAGES]
